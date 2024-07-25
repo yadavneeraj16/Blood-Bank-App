@@ -11,7 +11,7 @@
     "installc" : "npm install --prefix ./client ",
     "buildc" : "npm run build --prefix ./client",
     "start" : "node server.js",
-    "build" : "npm install && npm run installc"
+    "build" : "npm install"
 
   },
   "author": "techinfoyt",
