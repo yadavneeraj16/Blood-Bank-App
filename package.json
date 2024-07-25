@@ -8,7 +8,8 @@
     "server": "nodemon server.js",
     "client": "npm start --prefix ./client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "buildc" : "npm run build --prefix ./client",
+    "installd" : "npm install --prefix ./client && npm install",
+    "buildc" : " npm run installd && npm run build --prefix ./client",
     "server2" : "node server.js",
     "start" : "npm run buildc && npm run server2"
 
